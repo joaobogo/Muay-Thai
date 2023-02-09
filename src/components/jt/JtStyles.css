@@ -5,13 +5,12 @@
     opacity: .9;
 }
 
-.power .container {
-    width: 100%;
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+.container1 {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 100vh;
 }
 
 .power .top {

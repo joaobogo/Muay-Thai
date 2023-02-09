@@ -22,6 +22,7 @@
     flex-direction: column;
     padding: 1 rem;
     justify-content: flex-start;
+    color: white;
 }
 
 .location {

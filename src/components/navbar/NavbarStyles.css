@@ -128,7 +128,7 @@
     }
 
     .container {
-        width: 395px;
+        width: 425px;
         height: 60px;
     }
 
@@ -140,4 +140,6 @@
     .navbar .slide-right {
         margin-left: 30%;
     }
+
+  
 }

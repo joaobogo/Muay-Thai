@@ -13,7 +13,7 @@ function Jt() {
 
     return (
         <div name='inicio' className='power'>
-            <div className='container'>
+            <div className='container1'>
                 <div className='top'>
                     <h1>Aprenda a arte do Muay Thai e Boxe</h1>
                 </div>
