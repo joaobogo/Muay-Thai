@@ -14,7 +14,8 @@
 }
 
 .corpo {
-    margin-top: 15px;
+  
+    border: 5px red solid;
 }
 
 :root {
@@ -32,6 +33,7 @@
     margin-left: -100px;
     color: white;
     width: 30%;
+    text-align: justify;
 }
 
 .img-container {
@@ -58,26 +60,27 @@
     }
 
     .corpo {
-        margin-top: -30px;
+        margin-top: -55px;
     }
 
     .leftone {
         width: 300px;
         display: flex;
         margin-top: 20px;
+        
     }
 
     .leftone p {
-        text-align: center;
+        text-align: justify;
         margin-left: 50px;
         margin-right: -50px;
-
+margin-bottom: 15px;
     }
 
     .img-container {
         display: flex;
         flex-direction: column;
-        gap: 10px;
+        gap: 15px;
         justify-content: center;
         align-items: center;
     }

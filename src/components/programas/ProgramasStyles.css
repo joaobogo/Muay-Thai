@@ -3,7 +3,7 @@
     height: 100vh;
     background-color: black;
     opacity: .9;
-
+    border: red 5px solid;
 }
 
 
@@ -22,7 +22,7 @@
 }
 
 .title {
-    margin-top: 0px;
+    margin-top: 10px;
 }
 
 
@@ -46,8 +46,9 @@ section {
 
 .descricao {
     color: white;
-    text-align: left;
+    text-align: justify;
     width: 40%;
+
 }
 
 .precos {
@@ -56,8 +57,9 @@ section {
 
 @media screen and (max-width:540px) {
 
-    .programas{
-        margin-top: 100px;
+    .programas {
+        height: 600px;
+       
     }
 
     .programas .container .bottom {
@@ -78,7 +80,7 @@ section {
 
     .descricao {
         width: 90%;
-        text-align: center;
+        text-align: justify;
 
 
     }
