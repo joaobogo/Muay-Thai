@@ -15,10 +15,10 @@
     display: flex;
     align-items: center;
     margin: 1rem;
-    color: #f6f6f6;
+    color: #200505;
     z-index: 5;
     text-shadow: 1px 1px 2px red, 0 0 1em rgb(250, 4, 4), 0 0 0.2em rgb(224, 49, 49);
-
+    
 }
 
 .hamburger {
@@ -45,6 +45,8 @@
 }
 
 @media screen and (max-width: 940px) {
+
+
     .hamburger {
         display: block;
         z-index: 5;
@@ -101,7 +103,7 @@
         background: rgba(255, 255, 255, .1);
     }
 
-    .nav-menu .social-icons {
+    .nav-menu .social-icons2 {
         display: flex;
         justify-content: space-evenly;
         margin: 1rem;
@@ -134,12 +136,26 @@
 
     .hamburger {
         margin-top: 25px;
-        margin-right: 40px;
+        margin-right: 35px;
     }
 
     .navbar .slide-right {
         margin-left: 30%;
     }
 
-  
+
+
+}
+
+@media screen and (max-width:380px) {
+
+    .hamburger {
+        margin-right: 60px;
+    }
+
+    .logo h3{
+        text-align: left;
+        padding-top: 30px;
+    }
+
 }

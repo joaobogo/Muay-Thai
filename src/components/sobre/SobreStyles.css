@@ -14,7 +14,7 @@
 }
 
 .corpo {
-  
+
     border: 5px red solid;
 }
 
@@ -24,7 +24,7 @@
 
 .title {
     text-align: center;
-    color: white;
+    color: #200505;
     padding: 25px;
     text-shadow: 1px 1px 2px red, 0 0 1em rgb(250, 4, 4), 0 0 0.2em rgb(224, 49, 49);
 }
@@ -60,21 +60,21 @@
     }
 
     .corpo {
-        margin-top: -55px;
+        margin-top: -60px;
     }
 
     .leftone {
         width: 300px;
         display: flex;
         margin-top: 20px;
-        
+
     }
 
     .leftone p {
         text-align: justify;
         margin-left: 50px;
         margin-right: -50px;
-margin-bottom: 15px;
+        margin-bottom: 15px;
     }
 
     .img-container {
@@ -96,5 +96,19 @@ margin-bottom: 15px;
     .img {
         width: 300px;
         height: 200px;
+    }
+}
+
+@media screen and (max-width:395px) {
+
+    .corpo {
+        margin-top: -55px;
+    }
+}
+
+@media screen and (max-width:375px) {
+
+    .corpo {
+        margin-top: -45px;
     }
 }

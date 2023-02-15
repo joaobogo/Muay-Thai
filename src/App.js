@@ -6,6 +6,7 @@ import Programas from "./components/programas/Programas";
 import Contatos from "./components/contatos/Contatos";
 import Footer from "./components/footer/Footer";
 import "./index.css";
+import WhatsappBtn from "./components/whatsappbtn/WhatsappBtn";
 
 
 
@@ -17,6 +18,7 @@ function App() {
       <Sobre />
       <Programas />
       <Contatos />
+      <WhatsappBtn/>
       <Footer />
     </>
   );

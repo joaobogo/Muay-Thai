@@ -1,6 +1,5 @@
 .programas {
     width: 100%;
-    height: 100vh;
     background-color: black;
     opacity: .9;
     border: red 5px solid;
@@ -9,7 +8,7 @@
 
 .programas .container {
     width: 100%;
-    height: 100vh;
+    height: 900px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -40,7 +39,7 @@ section {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 25px;
+   
 
 }
 
@@ -58,7 +57,7 @@ section {
 @media screen and (max-width:540px) {
 
     .programas {
-        height: 600px;
+        height: 750px;
        
     }
 
@@ -84,4 +83,12 @@ section {
 
 
     }
+}
+
+@media screen and (max-width:340px) {
+
+    .programas{
+        height: 660px;
+    }
+
 }

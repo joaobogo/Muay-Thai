@@ -40,10 +40,10 @@ const Navbar = () => {
 
                     <div className='mobile-menu'>
 
-                        <div className="social-icons">
-                            <FaFacebook className='icon' />
-                            <FaInstagram className='icon' />
-                            <FaWhatsapp className='icon' />
+                        <div className="social-icons2">
+                        <a href="https://m.facebook.com/316184332396152/"><FaFacebook className='icon' /></a>
+                        <a href="https://instagram.com/teixeira.fight.club?igshid=MDM4ZDc5MmU="><FaInstagram className='icon' /></a>
+                        <a href='https://wa.me/554192063723'><FaWhatsapp className='icon' /></a>
                         </div>
                     </div>
 

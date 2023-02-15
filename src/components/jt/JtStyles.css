@@ -14,7 +14,7 @@ height: 100vh;
 }
 
 .power .top {
-    color: rgb(255, 255, 255);
+    color: #200505;
     text-align: center;
     margin-top: 150px;
     text-shadow: 1px 1px 2px red, 0 0 1em rgb(250, 4, 4), 0 0 0.2em rgb(224, 49, 49);
@@ -53,9 +53,10 @@ h1 {
         color: white;
         margin-top: 16rem;
         font-size: 40px;
-        text-align: center;
+        text-align: justify;
     }
 
+    
     
 
     .bottom{
