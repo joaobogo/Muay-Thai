@@ -40,33 +40,12 @@ img {
   transform: scale(1.4);
 }
 
-@media screen and (max-width: 420px) {
-  
-  .sobre{
-    height: 55vh;
-  }
 
-
-  .leftone h2{
-    margin-top: 20px;
-    margin-bottom: 15px;
-    text-align: center;
-    font-weight: bold;
-    font-size:20px;
-
-  }
-
-  .leftone p{
-    font-size: 18px;
-    text-align: justify;
-  }
-
-}
 
 @media screen and (max-width: 768px) {
 
   .sobre{
-    height: 45vh;
+    height: 55vh;
   }
 
 
@@ -79,5 +58,25 @@ img {
  
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 420px) {
+  
+  .sobre{
+    height: 55vh;
+  }
+
+
+  .leftone h2{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-size:30px;
+
+  }
+
+  .leftone p{
+    font-size: 18px;
+    text-align: justify;
+  }
+
 }

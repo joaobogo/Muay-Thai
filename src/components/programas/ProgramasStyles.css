@@ -15,7 +15,7 @@
 .main p {
   padding: 10px;
   font-size: 20px;
-  text-align: center;
+  text-align: justify;
   color: white;
   padding: 15px;
 }
@@ -31,6 +31,32 @@ img {
   width: 20rem;
   height: 12rem;
   padding: 10px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .programas {
+    height: 130vh;
+  }
+
+  
+  .images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .mobileimg {
+    display: none;
+  }
+
+  .images img {
+    width: 60vw;
+    height: 30vh;
+  }
 }
 
 @media screen and (max-width: 420px) {
@@ -62,33 +88,7 @@ img {
 
   .images img {
     margin-top: -20px;
-    width: 40vw;
-    height: 20vh;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .programas {
-    height: 90vh;
-  }
-
-  .images {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-  }
-
-  .mobileimg {
-    display: none;
-  }
-
-  .images img {
     width: 60vw;
-    height: 20vh;
+    height: 25vh;
   }
-}
-
-@media screen and (max-width: 1024px) {
 }
