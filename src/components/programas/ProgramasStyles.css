@@ -88,15 +88,20 @@ img {
 
   .images img {
    
-    width: 80vw;
+    width: 70vw;
     height: 25vh;
   }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 395px) {
 
 .programas{
   height: 130vh;
 }
   
+.images img {
+   
+  width: 65vw;
+  height: 25vh;
+}
 }

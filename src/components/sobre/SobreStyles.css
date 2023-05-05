@@ -87,10 +87,9 @@ img {
     height: 70vh;
     background-size: cover;
   }
-  .leftone h2{
+  .leftone p{
 
-  
-
+font-size: 20px;
   }
   
 }

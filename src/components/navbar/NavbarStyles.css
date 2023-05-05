@@ -79,20 +79,7 @@ a:hover {
   cursor: pointer;
 }
 
-@media screen and (max-width: 420px) {
-  .title2 {
-    font-size: 16px;
-  }
 
-  .middleside {
-    display: none;
-  }
-
-  .rightside {
-    width: 25vw;
-  }
-
-}
 
 @media screen and (max-width: 768px) {
   .title2 {
@@ -108,5 +95,17 @@ a:hover {
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 420px) {
+  .title2 {
+    font-size: 16px;
+  }
+
+  .middleside {
+    display: none;
+  }
+
+  .rightside {
+    width: 25vw;
+  }
+
 }
