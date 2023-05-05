@@ -26,10 +26,7 @@ const Footer = () => {
         </p>
 
         <div className="media">
-          <a href="www.facebook.com">
-            <FaFacebook></FaFacebook>
-          </a>
-          <a href="www.instagram.com">
+          <a href="https://instagram.com/teixeira.fight.club?igshid=YmMyMTA2M2Y=">
             <FaInstagram></FaInstagram>
           </a>
         </div>
