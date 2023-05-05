@@ -1,73 +1,33 @@
 .power {
-    width: 100%;
-    height: 100vh;
-    background: url('../../assets/kid.png') no-repeat center center/cover;
-    opacity: .9;
-}
-
-.container1 {
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-height: 100vh;
-}
-
-.power .top {
-    color: #200505;
-    text-align: center;
-    margin-top: 150px;
-    text-shadow: 1px 1px 2px red, 0 0 1em rgb(250, 4, 4), 0 0 0.2em rgb(224, 49, 49);
+  width: 100%;
+  height: 100vh;
+  background: url("../../assets/mainphoto2.png") no-repeat;
+  background-size:cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
 }
 
 h1 {
-    background: none;
+  margin-top: -150px;
+  background: none;
+  font-size: 3.5rem;
+  text-shadow: 1px 1px 2px red, 0 0 1em rgb(250, 4, 4),
+    0 0 0.2em rgb(224, 49, 49);
+    color: #D9D9D9;
+ 
 }
 
-.power .bottom {
-    margin-top: 4rem;
-    display: flex;
-    justify-content: center;
-    max-width: 600px;
-    width: 100%;
-    margin-bottom: 4rem;
+@media screen and (max-width: 480px) {
 }
 
-.mainbtn {
-    background-color: rgb(214, 28, 28, 0.5);
-    width: 100px;
-    height: 10px;
-    box-shadow: 5px 10px 18px red;
+@media screen and (max-width: 768px) {
+ .power{
+ width: 100vw;
+ height: 20vh;
+ }
 }
 
-@media screen and (max-width:540px) {
-    .power .container .bottom {
-        align-items: center;
-    }
-
-    .container{
-        position: absolute;
-    }
-
-   .top {
-        color: white;
-        margin-top: 16rem;
-        font-size: 40px;
-        text-align: justify;
-    }
-
-    
-    
-
-    .bottom{
-        margin-top: -40px;
-    display: flex;
-    flex-direction: row;
-    gap: 50px;
-}
-
-.power img{
-    margin-top: 200px;
-}
-
+@media screen and (max-width: 1024px) {
 }

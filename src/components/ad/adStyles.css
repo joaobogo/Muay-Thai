@@ -1,0 +1,46 @@
+.adbody {
+  background-color: white;
+  height: 10vw;
+}
+
+.adbody a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #cf3030;
+  font-size: 40px;
+  padding: 30px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 420px) {
+  .adbody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 8vh;
+  }
+
+  .adbody a {
+    font-size: 16px;
+  }
+
+    
+}
+
+@media screen and (max-width: 768px) {
+  .adbody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+  }
+
+  .adbody a {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+}

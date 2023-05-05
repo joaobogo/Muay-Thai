@@ -1,0 +1,91 @@
+.benefits {
+  background: url("../../assets/background1.jpg") no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 80vh;
+}
+
+.benefits h2 {
+  margin-top: -15px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.mainbenefits {
+  display: flex;
+  height: auto;
+  justify-content: space-evenly;
+}
+
+.circle {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 14px;
+  padding: 5px;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background-color: #cf3030;
+  color: white;
+  box-shadow: 0 0 20px #ccc;
+}
+
+@media screen and (max-width: 420px) {
+
+  .benefits {
+    height: 100vh;
+    background: url("../../assets/background1.jpg") no-repeat;
+    background-size: cover;
+  }
+
+  .benefits h2 {
+    font-size: 30px;
+  }
+
+  .mainbenefits {
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .circle {
+width: 140px;
+height: 140px;
+    font-size: 14px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .benefits {
+    height: 80vh;
+    background: url("../../assets/background1.jpg") no-repeat;
+    background-size: cover;
+  }
+
+  .benefits h2 {
+    font-size: 30px;
+  }
+
+  .mainbenefits {
+    margin-top: -30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .circle {
+    transform: scale(0.9);
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+}

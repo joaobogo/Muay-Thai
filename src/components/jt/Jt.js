@@ -1,28 +1,30 @@
 import React,{useState} from 'react';
 import { Link } from 'react-scroll';
-import './JtStyles.css'
+import './JtStyles.css';
+import mainphoto2 from '../../assets/mainphoto2.png'
+import mainphoto3 from '../../assets/mainphoto3.png'
+import mainphoto4 from '../../assets/mainphoto4.png'
 
+const banners = [
+    {
+      bgimage: mainphoto2,
+    },
+    {
+      bgimage: mainphoto3,
+    },
+    {
+      bgimage: mainphoto4,
+    },
+  ];
 
 function Jt() {
-
-    const [nav, setNav] = useState(false)
-    const handleClose = () => {
-        setNav(!nav)
-    }
+    const [index, setIndex] = useState(0);
+    
 
 
     return (
-        <div name='inicio' className='power'>
-            <div className='container1'>
-                <div className='top'>
-                    <h1>Aprenda a arte do Muay Thai e Kickboxing</h1>
-                </div>
-                <div className='bottom'>
-                 <a href="/"><Link className='btn mainbtn' onClick={handleClose} activeClass="active" to="programas" spy={true} smooth={true} duration={500}>Programas</Link></a>
-                    <a href="/"><Link className='btn mainbtn' onClick={handleClose} activeClass="active" to="contato" spy={true} smooth={true} duration={500}>Contato</Link></a>
-                
-                </div>
-            </div>
+        <div className='power' name='inicio'>
+                  
         </div>
     )
 }

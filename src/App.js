@@ -7,6 +7,8 @@ import Contatos from "./components/contatos/Contatos";
 import Footer from "./components/footer/Footer";
 import "./index.css";
 import WhatsappBtn from "./components/whatsappbtn/WhatsappBtn";
+import Benefits from "./components/beneficios/Benefits";
+import Ad from "./components/ad/Ad";
 
 
 
@@ -16,10 +18,12 @@ function App() {
       <Navbar />
       <Jt />
       <Sobre />
+      <Benefits/>
+      <Ad/>
       <Programas />
-      <Contatos />
+      {/* <Contatos /> */}
       <WhatsappBtn/>
-      <Footer />
+       <Footer /> 
     </>
   );
 }

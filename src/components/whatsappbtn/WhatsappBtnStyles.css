@@ -1,27 +1,47 @@
 .whatsappbtn {
-    position: fixed;
-    right: 15px;
-    top: 85vh;
-    z-index: 5;
+  position: fixed;
+  right: 20px;
+  top: 82vh;
+  z-index: 5;
 }
 
-
-.whatsappbtn img {
-    width: 45px;
-    transition: 0.4s;
-    border-radius: 15px;
+.whatsappbtn .imgbutton {
+  width: 60px;
+  height: 60px;
+  transition: 0.4s;
+  border-radius: 50%;
+  border: solid #febc30 2px;
+  padding: 0;
 }
 
-.whatsappbtn img:hover {
-    opacity: 0.6;
+.whatsappbtn .imgbutton:hover {
+  transform: scale(1.5);
 }
 
-@media screen and (max-width:640px) {
-    .whatsappbtn {
-        position: fixed;
-        right: 20px;
-        top: 90vh;
-        z-index: 5;
-    }
+@media screen and (max-width: 420px) {
 
+  .whatsappbtn {
+  
+    right: 30px;
+  }
+
+  .whatsappbtn .imgbutton {
+    width: 40px;
+    height: 40px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .whatsappbtn {
+    right: 30px;
+  }
+
+  .whatsappbtn .imgbutton {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
 }

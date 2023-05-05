@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Suez+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 :root {
 --primary-color: #171a20cc;
+
 }
 
 *{
@@ -10,56 +13,18 @@
 }
 
 body {
-  margin: 0;
-  font-family: 'Suez One', serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  font-family:'Roboto', sans-serif ;
+
 }
 
-ul{ 
 
-  list-style-type: none;
-}
 
 a{
   text-decoration: none;
 }
 
-h1{
-  font-size: 3.5rem;
-}
 
-h2{
-  font-size: 3rem;
-}
 
-h3{
-  font-size: 2rem;
-}
 
-.btn{
-  margin: .5rem;
-  padding: .7rem 1.5rem;
-  font-size: .8rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  border-radius: 25px;
-  border: none;
-  background:rgba(255, 255, 255, .1);
-  width: 90%;
-  color: #000000;
-  cursor:pointer;
-}
 
-.btn-dark {
-  background: rgba(0, 0, 0, .5);
-}
-
-.btn:hover{
-  background-color: rgb(0, 0, 0);
-  opacity: .8;
-}
-.btn-dark:hover{
-  background-color: darkgrey;
-  opacity: .8;
-}

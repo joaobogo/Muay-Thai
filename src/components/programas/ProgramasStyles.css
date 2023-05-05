@@ -1,94 +1,94 @@
 .programas {
-    width: 100%;
-    background-color: black;
-    opacity: .9;
-    border: red 5px solid;
+  background: url("../../assets/background2.jpg") no-repeat;
+  background-size: cover;
+  height: 55vw;
+  justify-content: center;
+  text-align: center;
 }
 
+.programas h2 {
+  padding: 30px;
+  color: white;
+  font-size: 40px;
+}
 
-.programas .container {
-    width: 100%;
-    height: 900px;
+.main p {
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  padding: 15px;
+}
+
+.images {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 3rem;
+}
+
+img {
+  border-radius: 20px;
+  width: 20rem;
+  height: 12rem;
+  padding: 10px;
+}
+
+@media screen and (max-width: 420px) {
+  .programas {
+    height: 100vh;
+  }
+
+  .programas h2 {
+    font-size: 30px;
+  }
+
+  .main p {
+    margin-top: -20px;
+    text-align: justify;
+    font-size: 16px;
+    padding: 20px;
+  }
+  .images {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.programas .top {
-    margin-top: 7rem;
-    color: white;
-}
-
-.title {
-    margin-top: 10px;
-}
-
-
-
-.programas .bottom {
-    margin-top: 4rem;
-    display: flex;
     justify-content: center;
-    max-width: 600px;
-    width: 100%;
-    margin-bottom: 4rem;
-}
-
-section {
-    display: flex;
-    justify-content: space-evenly;
     align-items: center;
-   
+    gap: 10px;
+  }
 
+  .mobileimg {
+    display: none;
+  }
+
+  .images img {
+    margin-top: -20px;
+    width: 40vw;
+    height: 20vh;
+  }
 }
 
-.descricao {
-    color: white;
-    text-align: justify;
-    width: 40%;
+@media screen and (max-width: 768px) {
+  .programas {
+    height: 90vh;
+  }
 
+  .images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .mobileimg {
+    display: none;
+  }
+
+  .images img {
+    width: 60vw;
+    height: 20vh;
+  }
 }
 
-.precos {
-    color: white;
-}
-
-@media screen and (max-width:540px) {
-
-    .programas {
-        height: 750px;
-       
-    }
-
-    .programas .container .bottom {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    section {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-    }
-
-    h3 {
-        text-align: center;
-        margin-top: 20px;
-    }
-
-    .descricao {
-        width: 90%;
-        text-align: justify;
-
-
-    }
-}
-
-@media screen and (max-width:340px) {
-
-    .programas{
-        height: 660px;
-    }
-
+@media screen and (max-width: 1024px) {
 }

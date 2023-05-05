@@ -1,61 +1,82 @@
-import React, { useState } from 'react'
-import { FaBars, FaFacebook, FaTimes, FaInstagram, FaWhatsapp } from 'react-icons/fa'
-import './NavbarStyles.css'
-import { Link } from 'react-scroll';
-
+import React, { useState } from "react";
+import { FaFacebook, FaInstagram, FaUser, FaWhatsapp } from "react-icons/fa";
+import "./NavbarStyles.css";
+import { Link } from "react-scroll";
+import LogoImg from '../../assets/logo.png'
 
 const Navbar = () => {
-    const [nav, setNav] = useState(false)
-    const [slide, setSlide] = useState(false)
+  return (
+    <div className="navbar">
+      <div className="leftside">
+        <img classname='mainlogo' src={LogoImg} />
+        <a className="title2" href="/">
+          Teixeira Fight Club
+        </a>
+      </div>
 
-    const handleNav = () => {
-        setNav(!nav)
-        setSlide(!slide)
-    }
+      <div className="middleside">
+      <a href="/">
+          <Link
+            activeClass="active"
+            to="navbar"
+            spy={true}
+            smooth={true}
+            duration={500}
+            className="buttons"
+          >
+            Início
+          </Link>
+        </a>
+        <a href="/">
+          <Link
+            activeClass="active"
+            to="sobre"
+            spy={true}
+            smooth={true}
+            duration={500}
+            className="buttons"
+          >
+            Sobre
+          </Link>
+        </a>
+        <a href="/">
+          <Link
+            activeClass="active"
+            to="programas"
+            spy={true}
+            smooth={true}
+            duration={500}
+            className="buttons"
+          >
+            Programas
+          </Link>
+        </a>
+        <a href="/">
+          <Link
+            activeClass="active"
+            to="footer"
+            spy={true}
+            smooth={true}
+            duration={500}
+            className="buttons"
+          >
+            Contato
+          </Link>
+        </a>
+      </div>
+      <div className="rightside">
+        <a className="icon" href="#">
+          <FaFacebook />
+        </a>
+        <a className="icon" href="#">
+          <FaInstagram />
+        </a>
+        <a className="icon" href="#">
+          <FaWhatsapp />
+        </a>
+      </div>
+    </div>
+  );
+};
 
-    const handleClose = () => {
-        setNav(!nav)
-    }
-
-
-
-    return (
-        <div className='navbar'>
-            <div className="container">
-            <div className={slide ? 'logo slide-right' : 'logo'}>
-                    <h3>Teixeira Fight Club</h3>
-                </div>
-
-                <ul className={nav ? 'nav-menu active' : 'nav-menu'}>
-
-
-                    <li><a href="/"><Link  onClick={handleClose} activeClass="active" to="inicio" spy={true} smooth={true} duration={500}>Inicio</Link></a></li>
-                    <li><a href="/"><Link  onClick={handleClose} activeClass="active" to="sobre" spy={true} smooth={true} duration={500}>Sobre</Link>
-                    </a></li>
-                    <li><a href="/"><Link  onClick={handleClose} activeClass="active" to="programas" spy={true} smooth={true} duration={500}>Programas</Link>
-                    </a></li>
-                    <li><a href="/"><Link  onClick={handleClose} activeClass="active" to="contato" spy={true} smooth={true} duration={500}>Contato</Link>
-                    </a></li>
-
-
-                    <div className='mobile-menu'>
-
-                        <div className="social-icons2">
-                        <a href="https://m.facebook.com/316184332396152/"><FaFacebook className='icon' /></a>
-                        <a href="https://instagram.com/teixeira.fight.club?igshid=MDM4ZDc5MmU="><FaInstagram className='icon' /></a>
-                        <a href='https://wa.me/554192063723'><FaWhatsapp className='icon' /></a>
-                        </div>
-                    </div>
-
-                </ul>
-
-                <div className="hamburger" onClick={handleNav} >
-                    {nav ? (<FaTimes size={20} style={{ color: '#ffffff' }} />) : (<FaBars style={{ color: '#ffffff' }} size={20} />)}
-                </div>
-
-            </div>
-        </div>
-    )
-}
-
-export default Navbar
+export default Navbar;

@@ -1,114 +1,83 @@
-.about {
-    width: 100%;
-    height: 100vh;
-    margin: 3rem 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex: wrap;
-    height: 100%;
-    margin-top: 0px;
-    background-color: rgb(0, 0, 0);
-    margin-left: 50px;
-    gap: 25px;
+.sobre {
+  background: url("../../assets/background2.jpg") no-repeat;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem;
+  height: 60vh;
+  
 }
 
-.corpo {
-
-    border: 5px red solid;
-}
-
-:root {
-    background-color: black;
-}
-
-.title {
-    text-align: center;
-    color: #200505;
-    padding: 25px;
-    text-shadow: 1px 1px 2px red, 0 0 1em rgb(250, 4, 4), 0 0 0.2em rgb(224, 49, 49);
+.leftone h2{
+  margin-top: -30px;
+  text-align: center;
+  font-weight: bold;
+  font-size:40px;
 }
 
 .leftone {
-    margin-left: -100px;
-    color: white;
-    width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 80vw;
+  color: white;
+  border-radius: 10px;
+  justify-content: space-evenly;
+}
+
+.leftone p{
+  font-size: 20px;
+}
+
+
+.rightone {
+  width: 40vw;
+  background-color: white;
+}
+
+img {
+  border-radius: 10px;
+  transform: scale(1.4);
+}
+
+@media screen and (max-width: 420px) {
+  
+  .sobre{
+    height: 55vh;
+  }
+
+
+  .leftone h2{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-size:20px;
+
+  }
+
+  .leftone p{
+    font-size: 18px;
     text-align: justify;
-}
-
-.img-container {
-    display: flex;
-    gap: 5px;
+  }
 
 }
 
-.img {
-    width: 200px;
-    height: 100px;
-    border-radius: 30px;
+@media screen and (max-width: 768px) {
+
+  .sobre{
+    height: 45vh;
+  }
+
+
+  .leftone h2{
+    text-align: center;
+    font-weight: bold;
+    font-size:30px;
+  }
+
+ 
 }
 
-
-
-@media screen and (max-width:540px) {
-
-    .about {
-        display: flex;
-        flex-direction: column;
-        margin-left: 0;
-        gap: 0;
-    }
-
-    .corpo {
-        margin-top: -60px;
-    }
-
-    .leftone {
-        width: 300px;
-        display: flex;
-        margin-top: 20px;
-
-    }
-
-    .leftone p {
-        text-align: justify;
-        margin-left: 50px;
-        margin-right: -50px;
-        margin-bottom: 15px;
-    }
-
-    .img-container {
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .imgstack {
-        justify-content: flex-start
-    }
-
-    .right {
-        gap: 10px;
-    }
-
-    .img {
-        width: 300px;
-        height: 200px;
-    }
-}
-
-@media screen and (max-width:395px) {
-
-    .corpo {
-        margin-top: -55px;
-    }
-}
-
-@media screen and (max-width:375px) {
-
-    .corpo {
-        margin-top: -45px;
-    }
+@media screen and (max-width: 1024px) {
 }
