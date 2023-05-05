@@ -65,13 +65,13 @@ const Navbar = () => {
         </a>
       </div>
       <div className="rightside">
-        <a className="icon" href="#">
+        <a className="icon" href="www.instagram.com">
           <FaFacebook />
         </a>
-        <a className="icon" href="#">
+        <a className="icon" href="www.facebook.com">
           <FaInstagram />
         </a>
-        <a className="icon" href="#">
+        <a className="icon" href="https://wa.me/554192063723">
           <FaWhatsapp />
         </a>
       </div>
