@@ -51,13 +51,22 @@
     flex-direction: column;
   }
 
+ 
 
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 391px) {
 
   .footer {
     height: 50vh;
-
   }
+
+  .footerlogo img {
+    margin-top: 10px;
+   }
+
+   .footercontact{
+    justify-content: center;
+    gap: 15px;
+   }
 }
