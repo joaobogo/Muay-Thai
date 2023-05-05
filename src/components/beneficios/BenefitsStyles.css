@@ -37,11 +37,6 @@
 }
 
 
-
-
-
-
-
 @media screen and (max-width: 768px) {
   .benefits {
     height: 90vh;
@@ -68,9 +63,9 @@
   }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 480px) {
   .benefits {
-    height: 100vh;
+    height: 80vh;
     background: url("../../assets/background1.jpg") no-repeat;
     background-size: cover;
   }
@@ -90,4 +85,13 @@
     height: 140px;
     font-size: 14px;
   }
+}
+
+@media screen and (max-width: 380px) {
+
+  .benefits {
+    height: 90vh;
+
+  }
+  
 }

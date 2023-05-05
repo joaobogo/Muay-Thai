@@ -58,16 +58,16 @@ img {
  
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 480px) {
   
   .sobre{
     height: 55vh;
   }
 
 
+
   .leftone h2{
-    margin-top: 20px;
-    margin-bottom: 15px;
+    
     text-align: center;
     font-weight: bold;
     font-size:30px;
@@ -75,8 +75,15 @@ img {
   }
 
   .leftone p{
-    font-size: 18px;
+    font-size: 24px;
     text-align: justify;
   }
 
+}
+
+@media screen and (max-width: 380px) {
+
+  .sobre{
+    height: 80vh;
+  }
 }

@@ -18,6 +18,19 @@
   transform: scale(1.5);
 }
 
+
+
+@media screen and (max-width: 768px) {
+  .whatsappbtn {
+    right: 30px;
+  }
+
+  .whatsappbtn .imgbutton {
+    width: 60px;
+    height: 60px;
+  }
+}
+
 @media screen and (max-width: 420px) {
 
   .whatsappbtn {
@@ -32,16 +45,10 @@
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 380px) {
   .whatsappbtn {
-    right: 30px;
+  
+    right: 40px;
   }
-
-  .whatsappbtn .imgbutton {
-    width: 60px;
-    height: 60px;
+  
   }
-}
-
-@media screen and (max-width: 1024px) {
-}

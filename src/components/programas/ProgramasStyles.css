@@ -59,7 +59,7 @@ img {
   }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 480px) {
   .programas {
     height: 100vh;
   }
@@ -71,7 +71,7 @@ img {
   .main p {
     margin-top: -20px;
     text-align: justify;
-    font-size: 16px;
+    font-size: 20px;
     padding: 20px;
   }
   .images {
@@ -87,8 +87,16 @@ img {
   }
 
   .images img {
-    margin-top: -20px;
-    width: 60vw;
+   
+    width: 80vw;
     height: 25vh;
   }
+}
+
+@media screen and (max-width: 380px) {
+
+.programas{
+  height: 130vh;
+}
+  
 }
